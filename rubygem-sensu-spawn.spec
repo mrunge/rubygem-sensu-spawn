@@ -2,7 +2,7 @@
 %global gem_name sensu-spawn
 
 Name:           rubygem-%{gem_name}
-Version:        1.6.0
+Version:        1.8.0
 Release:        1%{?dist}
 Summary:        The Sensu spawn process library
 Group:          Development/Languages
@@ -99,6 +99,9 @@ popd
 
 
 %changelog
+* Mon May 09 2016 Martin Mágr <mmagr@redhat.com> - 1.8.0-1
+- Updated to upstream version 1.8.0
+
 * Tue Mar 01 2016 Martin Mágr <mmagr@redhat.com> - 1.6.0-1
 - Updated to upstream version 1.6.0
 
